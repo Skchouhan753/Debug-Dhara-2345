@@ -50,8 +50,8 @@ List your design desissions & assumptions
 Detailed instructions on how to install, configure, and get the project running. For BE/FS projects, guide the reviewer how to check mongodb schema etc.
 
 ```bash
-npm install my-project
-cd my-project
+npm install Debug-Dhara
+cd Debug-Dhara
 npm start
 ```
 
