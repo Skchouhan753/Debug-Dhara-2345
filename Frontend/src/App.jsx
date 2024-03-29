@@ -1,4 +1,5 @@
 import Footer from "./components/Footer";
+import QA from "./components/Homepage/QA";
 import Navbar from "./components/Navbar";
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <div>
         <Navbar />
         <Footer />
+        <QA></QA>
       </div>
     </>
   );
