@@ -8,10 +8,10 @@ function App() {
     <>
       <div>
         <Navbar />
-        <Footer />
         <OurPhilospy />
         <QA />
         <TalkWithExpert />
+        <Footer />
       </div>
     </>
   );
