@@ -1,4 +1,5 @@
 import Footer from "./components/Footer";
+import Hompage from "./components/Homepage/Hompage";
 import OurPhilospy from "./components/Homepage/OurPhilospy";
 import QA from "./components/Homepage/QA";
 import TalkWithExpert from "./components/Homepage/TalkWithExpert";
@@ -7,11 +8,9 @@ function App() {
   return (
     <>
       <div>
-        <Navbar />
+        {/* <Navbar /> */}
+        <Hompage />
         <Footer />
-         <OurPhilospy/>
-        <QA/>
-        <TalkWithExpert/>
       </div>
     </>
   );

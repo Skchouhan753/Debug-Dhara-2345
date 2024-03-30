@@ -11,22 +11,22 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
-import React from "react";
-
 function TalkWithExpert() {
   return (
     <div>
       <Center>
-        <h1>From our experts</h1>
+       <Heading fontSize={"50px"}>
+        From our experts
+       </Heading>
       </Center>
 
       <VStack gap={"50px"}>
         <Center>
           <Card
-            w={"700px"}
+            w="700px"
             boxShadow="rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px"
-            p={"10px"}
-            borderRadius={"10px"}
+            p="10px"
+            borderRadius="10px"
           >
             <CardBody>
               <Image
@@ -44,7 +44,11 @@ function TalkWithExpert() {
                   more than 200 million people use the app to to achieve their
                   health and fitness goals.
                 </Text>
-                <Link href="https://chakra-ui.com" isExternal color={"blue"}>
+                <Link
+                  href="https://blog.myfitnesspal.com/essential-guide-to-food-logging/?_gl=1*1w8362r*_ga*MTU3NDM4MDk3OC4xNzExNjkzNjkx*_ga_VG80VV73C6*MTcxMTczMDgzMi43LjEuMTcxMTczMTAyMi4wLjAuMA.."
+                  isExternal
+                  color={"blue"}
+                >
                   Read more on MyFitnessPal blog ›<ExternalLinkIcon mx="2px" />
                 </Link>
               </Stack>
@@ -75,7 +79,11 @@ function TalkWithExpert() {
                   It provides valuable insight into your nutrition habits, so
                   you can see trends and make adjustments as needed.
                 </Text>
-                <Link href="https://chakra-ui.com" isExternal color={"blue"}>
+                <Link
+                  href="https://blog.myfitnesspal.com/11-things-youll-learn-start-counting-calories-mfp/?_gl=1*iso94n*_ga*MTU3NDM4MDk3OC4xNzExNjkzNjkx*_ga_VG80VV73C6*MTcxMTczMDgzMi43LjEuMTcxMTczMTUxMC4wLjAuMA.."
+                  isExternal
+                  color={"blue"}
+                >
                   Read more on MyFitnessPal blog ›<ExternalLinkIcon mx="2px" />
                 </Link>
               </Stack>
