@@ -1,17 +1,14 @@
+import Homepage from "./Homepage/Homepage";
 import Footer from "./components/Footer";
-import OurPhilospy from "./components/Homepage/OurPhilospy";
-import QA from "./components/Homepage/QA";
-import TalkWithExpert from "./components/Homepage/TalkWithExpert";
-import Navbar from "./components/Navbar";
+import Login from "./components/LoginPage/Login";
 function App() {
   return (
     <>
       <div>
-        <Navbar />
-        <OurPhilospy />
-        <QA />
-        <TalkWithExpert />
-        <Footer />
+        {/* <Navbar /> */}
+        {/* <Homepage/> */}
+        {/* <Footer /> */}
+        <Login />
       </div>
     </>
   );
