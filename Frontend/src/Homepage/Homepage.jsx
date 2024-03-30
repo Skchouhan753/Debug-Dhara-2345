@@ -8,7 +8,6 @@ function Homepage() {
   return (
     <div>
       <DailyPlan />
-
       <OurPhilosophy />
       <Network />
       <QA />
