@@ -1,0 +1,34 @@
+
+
+.AccordionItem{
+border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+    border-radius: 15px;
+
+  
+}
+
+
+
+
+.AccordionButton{
+border: none;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+background-color: white;
+ border-radius: 15px;
+    padding: 10px;
+}
+
+
+.question-box{
+    height: 100px;
+    
+}
+.Panel{
+    border: none;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        background-color: white;
+        border-radius: 15px;
+        
+}
