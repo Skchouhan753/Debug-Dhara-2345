@@ -63,11 +63,6 @@ function Footer() {
               Ad Choices
             </a>
           </Text>
-          <Text fontSize="sm" mr="2" color="blue">
-            <a href="#" style={{ textDecoration: "none", color: "blue" }}>
-              Do Not Sell My Personal Information
-            </a>
-          </Text>
         </Flex>
         <Select w="120px" fontSize="sm" borderWidth="1px">
           <option value="">English</option>
@@ -84,7 +79,7 @@ function Footer() {
         </Select>
       </Flex>
       <Text fontSize="xs" textAlign="center" mt="2" color="black">
-        © 2022 MyFitnessPal, Inc.
+        © 2024 FitBuddy, Inc.
       </Text>
     </Box>
   );
