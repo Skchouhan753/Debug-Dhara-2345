@@ -1,12 +1,14 @@
+import Homepage from "./Homepage/Homepage";
 import Footer from "./components/Footer";
-import Hompage from "./components/Homepage/Hompage";
+import Login from "./components/LoginPage/Login";
 function App() {
   return (
     <>
       <div>
         {/* <Navbar /> */}
-        <Hompage />
-        <Footer />
+        {/* <Homepage/> */}
+        {/* <Footer /> */}
+        <Login/>
       </div>
     </>
   );
