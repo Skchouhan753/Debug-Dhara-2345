@@ -4,6 +4,8 @@ const cors = require("cors");
 const { connection } = require("./config/db");
 const { UserRouter } = require("./routes/user.router");
 const auth = require("./middlewares/auth.middleware");
+const { foodsRouter } = require("./routes/food.router");
+const exerciseRouter = require("./routes/exercise.router");
 
 require("dotenv").config();
 
@@ -16,7 +18,8 @@ app.use(express.json());
 app.use(cors());
 
 app.use("/users", UserRouter)
-
+app.use("/foods", auth, foodsRouter)
+app.use("/exercise", exerciseRouter)
 
 app.get("/", auth, async (req, res) => {
   try {

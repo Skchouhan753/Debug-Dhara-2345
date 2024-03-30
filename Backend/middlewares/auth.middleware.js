@@ -9,7 +9,7 @@ const auth = (req, res, next) => {
         if (err)
             return res
                 .status(400)
-                .send({ message: "Something went wrong, Please login again" });
+                .json({ msg: "Something went wrong, Please login again" });
         req.body.userId = decoded.user._id;
         // console.log(decoded)
         next();
