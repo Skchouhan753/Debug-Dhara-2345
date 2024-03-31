@@ -8,7 +8,6 @@ function App() {
         {/* <Navbar /> */}
         <Homepage/>
         {/* <Footer /> */}
-        {/* <Login/> */}
       </div>
     </>
   );
