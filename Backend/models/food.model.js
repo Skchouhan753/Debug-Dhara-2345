@@ -15,4 +15,4 @@ const FoodSchema = new Schema({
 
 const FoodModel = model("food", FoodSchema);
 
-module.exports = FoodModel;
+module.exports = { FoodModel };

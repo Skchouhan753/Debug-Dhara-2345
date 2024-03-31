@@ -16,4 +16,4 @@ const SnackSchma = new Schema({
 
 const SnackModel = model("snack", SnackSchma);
 
-module.exports = SnackModel;
+module.exports = { SnackModel };

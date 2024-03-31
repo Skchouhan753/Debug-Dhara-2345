@@ -16,4 +16,4 @@ const LunchSchema = new Schema({
 
 const LunchModel = model("lunch", LunchSchema);
 
-module.exports = { LunchModel }
+module.exports = { LunchModel };

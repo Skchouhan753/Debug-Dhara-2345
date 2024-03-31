@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const FoodModel = require("../models/food.model");
+const { FoodModel } = require("../models/food.model");
 
 const foodsRouter = Router();
 
