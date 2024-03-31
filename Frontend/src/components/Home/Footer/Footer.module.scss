@@ -1,0 +1,202 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+@mixin flexproperties {
+  display: flex;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flexJustify {
+  display: flex;
+  justify-content: center;
+}
+@mixin flexAlign {
+  display: flex;
+  align-items: center;
+}
+@mixin GridRowmaxautomax {
+  display: grid;
+  grid-template-rows: max-content auto max-content;
+}
+@mixin GridRowmaxauto {
+  display: grid;
+  grid-template-rows: max-content auto;
+}
+@mixin GridColmaxautomax {
+  display: grid;
+  grid-template-columns: max-content auto max-content;
+  align-items: center;
+}
+@mixin GridRowautomax {
+  display: grid;
+  grid-template-rows: auto max-content;
+}
+@mixin GridColautomax {
+  display: grid;
+  grid-template-columns: auto max-content;
+  // align-items: center;
+}
+
+@mixin GridColautomaxauto {
+  display: grid;
+  grid-template-columns: auto max-content auto;
+}
+@mixin GridColautomaxmax {
+  display: grid;
+  grid-template-columns: auto repeat(2, max-content);
+  align-items: center;
+}
+@mixin GridColmaxmax {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  align-items: center;
+}
+@mixin GridColmaxauto {
+  display: grid;
+  grid-template-columns: max-content auto;
+  align-items: center;
+}
+@mixin GridRowmaxmax {
+  display: grid;
+  grid-template-rows: repeat(2, max-content);
+}
+@mixin GridRowautomaxmax {
+  display: grid;
+  grid-template-rows: auto repeat(2, max-content);
+}
+@mixin GridThreeRowmax {
+  display: grid;
+  grid-template-rows: repeat(3, max-content);
+}
+
+@mixin GridFourRowmax {
+  display: grid;
+  grid-template-rows: repeat(4, max-content);
+}
+@mixin GridFiveRowmax {
+  display: grid;
+  grid-template-rows: repeat(5, max-content);
+}
+@mixin GridThreeColauto {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+@mixin GridColmaxmaxauto {
+  display: grid;
+  grid-template-columns: repeat(2, max-content) auto;
+}
+@mixin GridThreeRowauto {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+@mixin GridColautoauto {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+}
+@mixin GridRowautoauto {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+}
+@mixin GridRowmaxmaxauto {
+  display: grid;
+  grid-template-rows: repeat(2, max-content) auto;
+}
+@mixin GridThreeColmax {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  align-items: center;
+}
+@mixin GridFourColmax {
+  display: grid;
+  grid-template-columns: repeat(4, max-content);
+  align-items: center;
+}
+@mixin GridFourColauto {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  align-items: center;
+}
+@mixin GridFiveColmax {
+  display: grid;
+  grid-template-columns: repeat(5, max-content);
+  align-items: center;
+}
+@mixin GridSixColmax {
+  display: grid;
+  grid-template-columns: repeat(6, max-content);
+  align-items: center;
+}
+
+@mixin flexText {
+  font-weight: 500;
+  display: flex;
+  color: rgb(69, 75, 79);
+}
+
+.Section_Footer {
+  height: 430px;
+  margin-top: 10px;
+  position: relative;
+  overflow-y: hidden;
+  align-items: flex-end;
+  display: grid;
+  padding-bottom: 180px;
+  .BackGround_Img {
+    position: absolute;
+    top: 0;
+    animation: Rotate_Img 40s infinite linear;
+  }
+  @keyframes Rotate_Img {
+    0% {
+    }
+    50% {
+      transform: translate3d(20.7rem, -2rem, 1rem);
+    }
+    100% {
+    }
+  }
+  .Footer {
+    @include GridRowmaxmax();
+    gap: 20px;
+    // padding: 0px 100px;
+    align-items: flex-end;
+    .Links {
+      z-index: 999;
+      padding: 20px 0px;
+      display: grid;
+      grid-template-columns: auto repeat(5, auto);
+      gap: 30px;
+      border-top: 2px solid rgb(183, 183, 204);
+      margin: 0px 80px;
+      .FooterLink {
+        text-decoration: none;
+        font-size: 14.6px;
+        color: #3f4346;
+        font-weight: 400;
+
+        &:hover {
+          opacity: 70%;
+        }
+        &:nth-child(1) {
+          &:hover {
+            opacity: 100%;
+          }
+        }
+      }
+    }
+    > p {
+      text-align: center;
+      color: #737474;
+      font-size: 14px;
+      font-weight: 400;
+      width: 85vw;
+      margin: auto;
+    }
+  }
+}

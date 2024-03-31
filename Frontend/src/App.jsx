@@ -1,5 +1,6 @@
 import Homepage from "./Homepage/Homepage";
 import Footer from "./components/Footer";
+import Home from "./components/Home/Home";
 import Login from "./components/LoginPage/Login";
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
         {/* <Navbar /> */}
         {/* <Homepage/> */}
         {/* <Footer /> */}
-        <Login />
+        <Home />
       </div>
     </>
   );

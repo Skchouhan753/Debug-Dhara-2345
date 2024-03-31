@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.Section {
+  display: grid;
+  background-color: #fff;
+  .Top_Section {
+    height: 650px;
+    background-color: blue;
+    padding: 30px 50px;
+    display: grid;
+    grid-template-rows: max-content auto;
+    gap: 40px;
+    .Header {
+      display: grid;
+      grid-template-columns: auto max-content;
+      h4,
+      svg {
+        font-size: 30px;
+        font-weight: 500;
+        color: #fff;
+      }
+    }
+    .Content {
+      display: grid;
+      grid-template-columns: repeat(2, max-content);
+      align-items: center;
+      justify-content: center;
+      gap: 60px;
+      .left {
+        display: grid;
+        grid-auto-rows: max-content;
+        gap: 20px;
+        span,
+        p {
+          font-size: 18px;
+          font-weight: 500;
+          color: #d0cccc;
+        }
+        p,
+        h2 {
+          color: #fff;
+        }
+        h2 {
+          font-size: 52px;
+          font-weight: 600;
+        }
+        button {
+          border: none;
+          font-size: 17px;
+          font-weight: 500;
+          color: #3c4453;
+          padding: 8px 10px;
+          background-color: #fff;
+          border-radius: 5px;
+          width: 130px;
+        }
+      }
+      .Right {
+        img {
+          height: 500px;
+          width: 400px;
+          object-fit: cover;
+          border-radius: 50px;
+        }
+      }
+    }
+  }
+  .Section_Two {
+    display: grid;
+    margin-top: 50px;
+    gap: 50px;
+    grid-template-rows: max-content auto;
+    h3 {
+      font-size: 30px;
+      color: #282c33;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+    }
+    .Content {
+      display: grid;
+      grid-template-rows: repeat(3, max-content);
+      gap: 50px;
+      .Data {
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        img {
+          height: 400px;
+          width: 350px;
+          object-fit: cover;
+          border-radius: 50px;
+        }
+        .Content {
+          display: grid;
+          grid-template-rows: repeat(2, max-content);
+          gap: 15px;
+          h1 {
+            font-size: 30px;
+            color: #3c4453;
+          }
+          span {
+            font-size: 20px;
+            color: #282c33;
+          }
+        }
+      }
+    }
+  }
+  .Section_Three {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-top: 100px;
+    margin: auto;
+    .Card {
+      margin: auto;
+      width: 300px;
+      justify-content: center;
+      height: 200px;
+      border: 1px solid #ccc;
+      box-shadow: 0px 1px 5px 1px #ccc;
+    }
+  }
+}
