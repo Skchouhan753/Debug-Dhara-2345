@@ -6,9 +6,9 @@ function App() {
     <>
       <div>
         {/* <Navbar /> */}
-        {/* <Homepage/> */}
+        <Homepage/>
         {/* <Footer /> */}
-        <Login/>
+        {/* <Login/> */}
       </div>
     </>
   );

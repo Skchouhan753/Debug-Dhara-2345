@@ -1,4 +1,5 @@
 import DailyPlan from "./DailyPlan"
+import HomepageFoter from "./HomepageFoter"
 import Network from "./Network"
 import OurPhilosophy from "./OurPhilospy"
 import QA from "./QA"
@@ -12,6 +13,7 @@ function Homepage() {
       <Network />
       <QA />
       <TalkWithExpert />
+      <HomepageFoter/>
     </div>
   );
 }
