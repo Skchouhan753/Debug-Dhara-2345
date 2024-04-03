@@ -30,7 +30,7 @@ const TopSection = () => {
 						<Text color="#696969">reach their weight loss goal.</Text>
 					</Box>
 					
-					<Button bg="#824D74" color="white" w="300px" >
+					<Button colorScheme='teal' size='lg'>
 						START FREE 1-MONTH TRIAL
 					</Button>
 				</Box>

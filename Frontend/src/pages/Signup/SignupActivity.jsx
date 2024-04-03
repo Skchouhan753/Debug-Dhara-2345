@@ -50,6 +50,7 @@ const SignupActivity = () => {
 						w="400px"
 						mb="20px"
 						h="fit-content"
+						
 						onClick={handleClick}
 					>
 						<Box p="5px" textAlign="left">

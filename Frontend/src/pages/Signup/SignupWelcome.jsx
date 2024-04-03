@@ -14,7 +14,7 @@ const SignupWelcome = () => {
 					<Heading fontSize="25px">quick questions so we can customize</Heading>
 					<Heading fontSize="25px">MyFitnessPal for you.</Heading>
 
-					<Button bg="#0066EE" color="white" mt="40px" w="400px" onClick={() => navigate("/signupWeightGoal")}>
+					<Button colorScheme='teal' size='lg' mt="40px" w="400px" onClick={() => navigate("/signupWeightGoal")}>
 						Continue
 					</Button>
 				</Box>

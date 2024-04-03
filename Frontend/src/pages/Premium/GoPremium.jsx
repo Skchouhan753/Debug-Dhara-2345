@@ -33,10 +33,15 @@ const GoPremium = () => {
 						<span style={{ fontSize: "14px", color: "#696969" }}>Per Year</span>
 					</Text>
 					<Text color="#696969"  mt="20px">₹3,100.00 billed yearly after free trial ends.</Text>
-					<Button bg="#824D74" color="white" w="250px" mt="30px">SUBSCRIBE</Button>
+					<Button colorScheme='teal' w="250px" mt="30px">SUBSCRIBE</Button>
 				</Box>
 
 				<Box className="monthlyBox">
+				<Box bgColor="gold">
+						<Text as="b" fontSize="lg" >
+							SUBSCRIBE NOW
+						</Text>
+					</Box>
 					<Text as="b" fontSize="lg">
 						MONTHLY
 					</Text>
@@ -48,7 +53,7 @@ const GoPremium = () => {
 						</span>
 					</Text>   
 					<Text color="#696969" mt="20px">₹620.00 billed monthly after free trial ends.</Text>
-					<Button bg="#824D74" variant='outline' color="white" w="250px" mt="30px">SUBSCRIBE</Button>
+					<Button colorScheme='teal' size='lg'  variant='outline' w="250px" mt="30px">SUBSCRIBE</Button>
 				</Box>
 			</Box>
 		</Box>

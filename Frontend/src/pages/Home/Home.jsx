@@ -43,7 +43,7 @@ const Home = () => {
                 fontSize={{ base: "md", sm: "2xl", md: "2xl" }}
               >
                 Take control of your goals. Track calories, break down
-                ingredients, and long activities with MyFitnessPal.
+                ingredients, and long activities with Fitbit.
               </Text>
               <Button
                 colorScheme={"pink"}
@@ -229,7 +229,7 @@ const Home = () => {
             </Heading>
             <Text fontSize={{ base: "md", lg: "lg" }} p={{ base: 2, lg: "8" }}>
               Get nutritionist-approved recipes and motivational workout tips
-              from MyFitnessPal experts.
+              from Fitbit experts.
             </Text>
           </Box>
           <Flex
@@ -248,7 +248,7 @@ const Home = () => {
               </Box>
               <Box m={3}>
                 <Text color={"blue"} fontWeight="bold">
-                  <Link to={"#"}>MyFitnessPal Blog</Link>
+                  <Link to={"#"}>Fitbit Blog</Link>
                 </Text>
               </Box>
             </Box>
@@ -263,7 +263,7 @@ const Home = () => {
               </Box>
               <Box m={3}>
                 <Text color={"blue"} fontWeight="bold">
-                  <Link to={"#"}>MyFitnessPal Blog</Link>
+                  <Link to={"#"}>Fitbit Blog</Link>
                 </Text>
               </Box>
             </Box>
@@ -278,7 +278,7 @@ const Home = () => {
               </Box>
               <Box m={3}>
                 <Text color={"blue"} fontWeight="bold">
-                  <Link to={"#"}>MyFitnessPal Blog</Link>
+                  <Link to={"#"}>Fitbit Blog</Link>
                 </Text>
               </Box>
             </Box>
@@ -295,7 +295,7 @@ const Home = () => {
           </Box>
           <Box pt={{ base: 4, md: 6 }}>
             <Text fontSize={{ base: "md", sm: "xl" }}>
-              Easily link your MyFitnessPal account with apps that support your
+              Easily link your Fitbit account with apps that support your
               healthier lifestyle. It’s not just about calories. It’s about
               feeling better, looking better, and living better.
             </Text>
