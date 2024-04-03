@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
@@ -581,7 +582,7 @@ const MyHome = () => {
           <NewsBody>
             <div>
               <textarea rows={2} cols="10">
-                Whats on your mind?
+                What's on your mind?
               </textarea>
             </div>
             <div>

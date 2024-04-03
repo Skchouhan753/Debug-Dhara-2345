@@ -241,7 +241,7 @@
 
 .monthlyBox {
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-	padding: 30px;
+	/* padding: 30px; */
 	height: 280px;
 	width: 350px;
 	border-radius: 8px;

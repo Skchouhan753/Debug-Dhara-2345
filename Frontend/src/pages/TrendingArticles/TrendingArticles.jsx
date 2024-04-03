@@ -70,7 +70,7 @@ const TrendingArticles = () => {
         </div>
         <div className="line"></div>
       </div>
-      <div className="slide">
+      <div className="slider">
         <Swiper
           spaceBetween={20}
           slidesPerView={5}

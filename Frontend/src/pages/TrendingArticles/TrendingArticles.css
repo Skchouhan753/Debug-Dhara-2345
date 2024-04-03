@@ -3,7 +3,9 @@
     margin: 0%;
     padding: 0%;
   }
-  
+  .slider{
+    padding: 20px;
+  }
   /* TrendingArticles */
   .sliderImage {
     width: 100%;
