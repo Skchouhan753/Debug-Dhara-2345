@@ -27,7 +27,7 @@ UserRouter.post("/register", async (req, res) => {
           password: hash,
         });
         await user.save();
-        res.status(200).json({ msg: "User has been added" });
+        res.status(200).json({ msg: "user registered successfully" });
       }
     });
   } catch (error) {
