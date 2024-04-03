@@ -13,7 +13,7 @@ const { dinnerRouter } = require("./routes/dinner.router");
 
 require("dotenv").config();
 
-const PORT = process.env.port;
+const PORT = process.env.PORT;
 
 const app = express();
 
@@ -45,6 +45,7 @@ app.listen(PORT, async () => {
   try {
     await connection;
     console.log("connected to DB");
+  
   } catch (err) {
     console.log(err);
   }
