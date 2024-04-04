@@ -83,8 +83,8 @@ const Footer = () => {
           <div className="footer-section about">
             <h2 className="hTwo">About Us</h2>
             <p className="descriptiontext">
-            MyFitnessPal <br /> MyFitnessPal is a popular app and website for
-              tracking diet and exercise. With a vast database, users log meals,
+              Fitbit <br /> Fitbit is a popular app and website for tracking
+              diet and exercise. With a vast database, users log meals,
               activities, and monitor calories for better health.
             </p>
             <div className="footerSocial-icons">
