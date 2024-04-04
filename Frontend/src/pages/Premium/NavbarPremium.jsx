@@ -11,7 +11,7 @@ const NavbarPremium = () => {
 
   const getUser = async () => {
     try {
-      const url = "https://myfitnesspalclone17.herokuapp.com/login/success";
+      const url = "https://debug-dhara-backend-server.onrender.com/users/login";
       const { data } = await axios.get(url, { withCredentials: true });
       setUser(data.user._json);
     } catch (err) {
@@ -22,7 +22,7 @@ const NavbarPremium = () => {
   console.log(user.given_name);
 
   const logout = () => {
-    window.open(`https://myfitnesspalclone17.herokuapp.com/logout`, "_self");
+    window.open(`https://debug-dhara-backend-server.onrender.com/users/logout`, "_self");
   };
 
   useEffect(() => {

@@ -41,6 +41,23 @@ const SignupCreateAcc = () => {
     );
   };
 
+// const handleCreateAccountClick = async ()=>{
+//   try {
+//     const response = await fetch("https://debug-dhara-backend-server.onrender.com/users/register",{
+//       method:"POST",
+//       headers: {
+//         "Content-type":"application/json"
+//       },
+//       body: JSON.stringify(regCreds)
+//     });
+//     console.log(response);
+//     // Do something with the response
+//   } catch (error) {
+//     console.error('Error:', error);
+//     // Handle errors here
+//   }
+// }
+
   useEffect(() => {
     if (isReg) navigate("/signupCongrats");
   }, [navigate, isReg]);
@@ -83,7 +100,7 @@ const SignupCreateAcc = () => {
 
             <Box mt="40px">
               <Text color="#A0A0A0" align="left" mt="5px">
-                By signing up for MyFitnessPal, you are agreeing to our
+                By signing up for Fitbit, you are agreeing to our
               </Text>
               <Text
                 color="blue"

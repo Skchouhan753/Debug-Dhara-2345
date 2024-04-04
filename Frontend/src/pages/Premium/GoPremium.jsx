@@ -1,7 +1,9 @@
 import { Box, Button, Text } from "@chakra-ui/react";
+import { useNavigate } from "react-router-dom";
 
 
 const GoPremium = () => {
+	const navigate = useNavigate();
 	return (
 		<Box className="GoPremiumSection">
 			<Box className="premiumYellowBox premiumYellowBoxFAQ" w="fit-content">
@@ -33,7 +35,7 @@ const GoPremium = () => {
 						<span style={{ fontSize: "14px", color: "#696969" }}>Per Year</span>
 					</Text>
 					<Text color="#696969"  mt="20px">₹3,100.00 billed yearly after free trial ends.</Text>
-					<Button colorScheme='teal' w="250px" mt="30px">SUBSCRIBE</Button>
+					<Button colorScheme='teal' w="250px" mt="30px" onClick={()=>navigate("/signup")}>SUBSCRIBE</Button>
 				</Box>
 
 				<Box className="monthlyBox">
@@ -53,7 +55,7 @@ const GoPremium = () => {
 						</span>
 					</Text>   
 					<Text color="#696969" mt="20px">₹620.00 billed monthly after free trial ends.</Text>
-					<Button colorScheme='teal' size='lg'  variant='outline' w="250px" mt="30px">SUBSCRIBE</Button>
+					<Button colorScheme='teal' size='lg'  variant='outline' w="250px" mt="30px" onClick={()=>navigate("/signup")}>SUBSCRIBE</Button>
 				</Box>
 			</Box>
 		</Box>

@@ -159,7 +159,7 @@ const Home = () => {
               </Box>
             </Flex>
             <Box textAlign={"center"} p="5">
-              <Button colorScheme="pink" p="6">
+              <Button colorScheme="pink" p="6" onClick={()=>navigate("/signup")}>
                 START YOUR JOURNEY TODAY
               </Button>
             </Box>
@@ -248,7 +248,7 @@ const Home = () => {
               </Box>
               <Box m={3}>
                 <Text color={"blue"} fontWeight="bold">
-                  <Link to={"#"}>Fitbit Blog</Link>
+                  <Link to='/blog'>Fitbit Blog</Link>
                 </Text>
               </Box>
             </Box>
@@ -263,7 +263,7 @@ const Home = () => {
               </Box>
               <Box m={3}>
                 <Text color={"blue"} fontWeight="bold">
-                  <Link to={"#"}>Fitbit Blog</Link>
+                  <Link to='/blog'>Fitbit Blog</Link>
                 </Text>
               </Box>
             </Box>
@@ -278,7 +278,7 @@ const Home = () => {
               </Box>
               <Box m={3}>
                 <Text color={"blue"} fontWeight="bold">
-                  <Link to={"#"}>Fitbit Blog</Link>
+                  <Link to='/blog'>Fitbit Blog</Link>
                 </Text>
               </Box>
             </Box>
