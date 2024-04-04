@@ -13,10 +13,11 @@ require("dotenv").config();
 UserRouter.post("/register", async (req, res) => {
   const { username, email, password } = req.body;
 
-  const existUser = await UserModel.findOne({ email });
-  if (existUser) return res.status(400).json({ message: "User already exists" });
 
   try {
+    const existUser = await UserModel.findOne({ email });
+    if (existUser) return res.status(400).json({ message: "User already exists" });
+
     bcrypt.hash(password, 5, async (err, hash) => {
       if (err) {
         res.status(200).json({ msg: "Your Password is not secure" });
