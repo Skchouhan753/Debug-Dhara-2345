@@ -3,12 +3,18 @@ import "./HeaderTop.css";
 import { useNavigate, Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
+import { useDispatch } from "react-redux";
+import { logoutAPI } from "../../redux/auth/login/actionsLogin";
 
 export const Headertop = () => {
   const navigate = useNavigate();
   const data = JSON.parse(localStorage.getItem("username"));
-
-
+  const dispatch = useDispatch();
+  const handleLogout = () => {
+    dispatch(logoutAPI());
+    navigate("/");
+    // console.log("first")
+  };
 //<a href="https://imgbb.com/"><img src="https://i.ibb.co/CQTJNYW/logo.png" alt="logo" border="0"></a>
 
   return (
@@ -29,8 +35,7 @@ export const Headertop = () => {
           <h5
             onClick={() => {
               localStorage.removeItem("");
-
-              navigate("");
+              handleLogout()
             }}
           >
             Log Out
