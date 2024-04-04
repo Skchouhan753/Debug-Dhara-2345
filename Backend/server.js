@@ -23,7 +23,7 @@ app.use(cors());
 
 app.use("/users", UserRouter);
 
-app.use(auth);
+// app.use(auth);
 
 app.use("/foods", foodsRouter);
 app.use("/exercise", exerciseRouter);
@@ -45,7 +45,7 @@ app.listen(PORT, async () => {
   try {
     await connection;
     console.log("connected to DB");
-  
+
   } catch (err) {
     console.log(err);
   }

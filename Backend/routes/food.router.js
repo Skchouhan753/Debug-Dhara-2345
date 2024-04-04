@@ -6,7 +6,8 @@ const foodsRouter = Router();
 foodsRouter.post("/create", async (req, res) => {
     try {
         const data = req.body;
-        await FoodModel.insertMany(data)
+        const food = FoodModel(data)
+        await food.save()
         res.status(200).send({ msg: "Foods saved to DB" });
     } catch (error) {
         res.status(400).send({ msg: "Error", error })
