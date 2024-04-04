@@ -1,5 +1,5 @@
 import { Box, Grid, Heading, Text, Image, Link } from "@chakra-ui/react";
-import React from "react";
+
 const articles = [
   {
     id: 1,

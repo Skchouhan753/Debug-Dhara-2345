@@ -1,5 +1,4 @@
 import { Box, Grid, Text, Button } from "@chakra-ui/react";
-import Footer from "../components/Footer";
 import TrendingArticles from "./TrendingArticles";
 import LatestArticle from "./LatestArticle";
 // TrendingArticles Component

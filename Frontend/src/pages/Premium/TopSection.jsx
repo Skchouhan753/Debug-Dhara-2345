@@ -8,7 +8,17 @@ import {
 import "./PremiumStyles.css";
 import premiumTop from "../../assets/premiumTop.webp";
 
+// import SignupCreateAcc from "../Signup/SignupCreateAcc";
+import { useNavigate } from "react-router-dom";
+// const handleFree =()=>{
+// 	// Navigate('../Signup/SignupCreateAcc.jsx')
+// 	navigate('/signup')
+// console.log("first")
+// }
+
+
 const TopSection = () => {
+	const navigate = useNavigate();
 	return (
 		<>
 			<Box className="TopSec">
@@ -30,7 +40,7 @@ const TopSection = () => {
 						<Text color="#696969">reach their weight loss goal.</Text>
 					</Box>
 					
-					<Button colorScheme='teal' size='lg'>
+					<Button colorScheme='teal' size='lg' onClick={()=>navigate("/signup")}>
 						START FREE 1-MONTH TRIAL
 					</Button>
 				</Box>

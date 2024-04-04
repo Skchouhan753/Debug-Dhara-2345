@@ -17,7 +17,7 @@ export const Headertop = () => {
         <img
           src="https://i.ibb.co/CQTJNYW/logo.png"
           alt=""
-          onClick={()=>navigate("/myHome")}
+          onClick={()=>navigate("/")}
         />
         <div className="lscaring">
           {data ? (
@@ -29,8 +29,7 @@ export const Headertop = () => {
           <h5
             onClick={() => {
               localStorage.removeItem("");
-
-              navigate("");
+              navigate('/');
             }}
           >
             Log Out
