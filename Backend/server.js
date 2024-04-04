@@ -45,7 +45,7 @@ app.listen(PORT, async () => {
   try {
     await connection;
     console.log("connected to DB");
-  
+
   } catch (err) {
     console.log(err);
   }

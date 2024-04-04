@@ -18,19 +18,20 @@ UserRouter.post("/register", async (req, res) => {
     // const existUser = await UserModel.findOne({ email });
     // if (existUser) return res.status(400).json({ message: "User already exists" });
 
-    bcrypt.hash(password, 5, async (err, hash) => {
-      if (err) {
-        res.status(200).json({ msg: "Your Password is not secure" });
-      } else {
-        const user = new UserModel({
-          username: username,
-          email: email,
-          password: hash,
-        });
-        await user.save();
-        res.status(200).json({ msg: "user registered successfully" });
-      }
+    const hash = await bcrypt.hash(password, 5);
+    // bcrypt.hash(password, 5, async (err, hash) => {
+    // if (err) {
+    //   res.status(200).json({ msg: "Your Password is not secure" });
+    // } else {
+    const user = new UserModel({
+      username: username,
+      email: email,
+      password: hash,
     });
+    await user.save();
+    res.status(200).json({ msg: "user registered successfully" });
+    // }
+    // });
   } catch (error) {
     res.status(400).json({ msg: "Error: unable to register user" });
   }
@@ -43,19 +44,20 @@ UserRouter.post("/login", async (req, res) => {
   try {
     const user = await UserModel.findOne({ email: email });
     if (user) {
-      bcrypt.compare(password, user.password, (err, decode) => {
-        if (decode) {
-          res
-            .status(200)
-            .json({
-              msg: "User succesefully login",
-              Token: jwt.sign({ user }, process.env.SECRET_KEY),
-            });
+      const decode = await bcrypt.compare(password, user.password);
+      // bcrypt.compare(password, user.password, (err, decode) => {
+      if (decode) {
+        res
+          .status(200)
+          .json({
+            msg: "User succesefully login",
+            Token: jwt.sign({ user }, process.env.SECRET_KEY),
+          });
 
-        } else {
-          res.status(200).json({ msg: "Incorrect Password" });
-        }
-      });
+      } else {
+        res.status(200).json({ msg: "Incorrect Password" });
+      }
+      // });
     }
   } catch (error) {
     res.status(400).json({ msg: "Login Failed" });
