@@ -11,6 +11,7 @@ const initState = {
 	// token: "",
 };
 
+// eslint-disable-next-line no-unused-vars
 const regReducer = (state = initState, { type, payload }) => {
 	switch (type) {
 		case REGISTER_LOADING: {

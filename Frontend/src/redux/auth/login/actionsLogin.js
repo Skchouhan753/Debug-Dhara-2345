@@ -21,7 +21,7 @@ export const loginAPI = (creds) => (dispatch) => {
   };
 
   axios
-    .post("https://myfitnesspalclone17.herokuapp.com/auth/login", data, {
+    .post("https://debug-dhara-backend-server.onrender.com/users/login", data, {
       headers: headers,
     })
     .then((r) => dispatch({ type: LOGIN_SUCCESS, payload: r.data }))
