@@ -15,23 +15,23 @@ Fullstack Web Application
 
 ## Directory Structure
 Debug-Dhara-2345<br/>
-├─ Backend<br/>
-      ├─config<br/>
-      ├─middlewares<br/>
-      ├─models<br/>
-      ├─routes<br/>
-   
-├─ Frontend<br/>
-      ├─src<br/>
-        ├─AllRoutes<br/>
-        ├─Data<br/>
-        ├─Homepage<br/>
-        ├─Images<br/>
-        ├─assets<br/>
-        ├─Components<br/>
-        ├─Pages<br/>
-        ├─Redux<br/>
-        ├─Styles<br/>
+      ├─ Backend<br/>
+      |      ├─config<br/>
+      |      ├─middlewares<br/>
+      |      ├─models<br/>
+      |      ├─routes<br/>
+      |   
+      ├─ Frontend<br/>
+            ├─src<br/>
+               ├─AllRoutes<br/>
+               ├─Data<br/>
+               ├─Homepage<br/>
+               ├─Images<br/>
+               ├─assets<br/>
+               ├─Components<br/>
+               ├─Pages<br/>
+               ├─Redux<br/>
+               ├─Styles<br/>
      
 
 ## Video Walkthrough of the project
