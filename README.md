@@ -12,7 +12,7 @@ Fullstack Web Application
 [Subhash Kumar (fw27_246)](https://skchouhan753.github.io/)<br/>
 [Deepak Underiya (fw27_088)]()<br/>
 [Yogesh (fw28_170)](https://github.com/yogeshmasaistudent)<br/>
-[Rohit Kumar (fw28_206)]()<br/>
+[Rohit Kumar (fw28_206)](https://github.com/Rohit27082000)<br/>
 
 ## Deplolyed App
 1. Frontend: https://660eda88ddbbb7238114cfbf--cozy-panda-7df258.netlify.app/
