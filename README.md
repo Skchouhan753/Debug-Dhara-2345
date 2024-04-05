@@ -8,6 +8,12 @@ With FitBit, users can explore a wide range of fitness activities, from tracking
 ## Project Type
 Fullstack Web Application
 
+## Developer Team
+Subhash Kumar
+Deepak Underiya
+Yogesh
+Rohit Kumar
+
 ## Deplolyed App
 1. Frontend: https://660eda88ddbbb7238114cfbf--cozy-panda-7df258.netlify.app/
 2. Backend: https://debug-dhara-backend-server.onrender.com/
