@@ -3,7 +3,7 @@
 ## Introduction
 FitBit, crafted by Team Debug-Dhara, Our user-friendly platform facilitates seamless navigation, allowing users to delve into a myriad of health and fitness options effortlessly. The 'Track Progress' feature ensures a streamlined journey towards better physical and mental well-being, providing instant updates and insights. Our intuitive interface simplifies the process of setting fitness goals and monitoring progress, making it easy for users to stay motivated and on track.
 
-With FitBit, users can explore a wide range of fitness activities, from tracking steps and calories burned to monitoring heart rate and sleep patterns. The inclusion of personalized recommendations and insights adds an extra layer of value, empowering users to make informed decisions about their health and fitness journey. [FitBit live demo](https://660ec2d49a35f50cde75f46d--clinquant-kelpie-5fbae6.netlify.app/))
+With FitBit, users can explore a wide range of fitness activities, from tracking steps and calories burned to monitoring heart rate and sleep patterns. The inclusion of personalized recommendations and insights adds an extra layer of value, empowering users to make informed decisions about their health and fitness journey. [FitBit live demo](https://660ec2d49a35f50cde75f46d--clinquant-kelpie-5fbae6.netlify.app/)
 
 ## Project Type
 Fullstack Web Application
