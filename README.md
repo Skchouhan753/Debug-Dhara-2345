@@ -14,24 +14,24 @@ Fullstack Web Application
 3. Database: mongodb+srv://kumarS:kumar@cluster0.kfih6hj.mongodb.net/DEBUG_DHARA?retryWrites=true&w=majority&appName=Cluster0
 
 ## Directory Structure
-Debug-Dhara-2345/
-├─ Backend/
-      ├─config/
-      ├─middlewares/
-      ├─models/
-      ├─routes/
+Debug-Dhara-2345/<br/>
+├─ Backend/<br/>
+      ├─config/<br/>
+      ├─middlewares/<br/>
+      ├─models/<br/>
+      ├─routes/<br/>
    
-├─ Frontend/
-      ├─src
-        ├─AllRoutes
-        ├─Data
-        ├─Homepage
-        ├─Images
-        ├─assets
-        ├─Components
-        ├─Pages
-        ├─Redux
-        ├─Styles
+├─ Frontend/<br/>
+      ├─src<br/>
+        ├─AllRoutes<br/>
+        ├─Data<br/>
+        ├─Homepage<br/>
+        ├─Images<br/>
+        ├─assets<br/>
+        ├─Components<br/>
+        ├─Pages<br/>
+        ├─Redux<br/>
+        ├─Styles<br/>
      
 
 ## Video Walkthrough of the project
