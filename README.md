@@ -9,9 +9,9 @@ With FitBit, users can explore a wide range of fitness activities, from tracking
 Fullstack Web Application
 
 ## Developer Team
-[Subhash Kumar (fw27_246)]()<br/>
+[Subhash Kumar (fw27_246)](https://skchouhan753.github.io/)<br/>
 [Deepak Underiya (fw27_088)]()<br/>
-[Yogesh (fw28_170)]()<br/>
+[Yogesh (fw28_170)](https://github.com/yogeshmasaistudent)<br/>
 [Rohit Kumar (fw28_206)]()<br/>
 
 ## Deplolyed App
