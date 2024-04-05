@@ -8,6 +8,11 @@ With FitBit, users can explore a wide range of fitness activities, from tracking
 ## Project Type
 Fullstack Web Application
 
+## Deplolyed App
+Frontend: https://660eda88ddbbb7238114cfbf--cozy-panda-7df258.netlify.app/
+Backend: https://debug-dhara-backend-server.onrender.com/
+Database: mongodb+srv://kumarS:kumar@cluster0.kfih6hj.mongodb.net/DEBUG_DHARA?retryWrites=true&w=majority&appName=Cluster0
+
 ## Directory Structure
 
 ## Video Walkthrough of the project
