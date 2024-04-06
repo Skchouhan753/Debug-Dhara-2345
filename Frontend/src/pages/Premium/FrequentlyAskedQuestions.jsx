@@ -53,7 +53,7 @@ const FrequentlyAskedQuestions = () => {
 							</AccordionButton>
 						</h2>
 						<AccordionPanel pb={4}>
-							MyFitnessPal Premium features are available on a monthly or yearly
+							Fitbit Premium features are available on a monthly or yearly
 							subscription basis, depending on which one you purchase. By
 							default, your subscription will renew automatically when your
 							membership period is up—unless you manually cancel your
@@ -92,8 +92,8 @@ const FrequentlyAskedQuestions = () => {
 						<AccordionPanel pb={4}>
 							Just tap one of the buttons below to start a monthly or annual
 							subscription. A Premium subscription adds more extensive options
-							to MyFitnessPals feature set, increasing customizability and
-							flexibility. Your MyFitnessPal account will stay just as you have
+							to Fitbit feature set, increasing customizability and
+							flexibility. Your Fitbit account will stay just as you have
 							built it—friends, favorite foods, diary history—with many new and
 							enhanced features added once you go Premium.
 						</AccordionPanel>
