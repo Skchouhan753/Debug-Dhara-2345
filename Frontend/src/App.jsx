@@ -15,26 +15,19 @@
 
 // export default App;
 
-
 import AllRoutes from "./AllRoutes/AllRoutes";
 import Footer from "./Components/Footer/Footer";
-
-
-
-
 
 function App() {
   return (
     <>
       <div>
+        <AllRoutes />
 
-      <AllRoutes/>
-       
-        <Footer/>
+        <Footer />
       </div>
     </>
   );
 }
 
 export default App;
-

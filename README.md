@@ -1,17 +1,47 @@
-# Debug-Dhara-2345
+# [Debug-Dhara-2345](https://660eda88ddbbb7238114cfbf--cozy-panda-7df258.netlify.app/)
 
 ## Introduction
 FitBit, crafted by Team Debug-Dhara, Our user-friendly platform facilitates seamless navigation, allowing users to delve into a myriad of health and fitness options effortlessly. The 'Track Progress' feature ensures a streamlined journey towards better physical and mental well-being, providing instant updates and insights. Our intuitive interface simplifies the process of setting fitness goals and monitoring progress, making it easy for users to stay motivated and on track.
 
-With FitBit, users can explore a wide range of fitness activities, from tracking steps and calories burned to monitoring heart rate and sleep patterns. The inclusion of personalized recommendations and insights adds an extra layer of value, empowering users to make informed decisions about their health and fitness journey. 
+With FitBit, users can explore a wide range of fitness activities, from tracking steps and calories burned to monitoring heart rate and sleep patterns. The inclusion of personalized recommendations and insights adds an extra layer of value, empowering users to make informed decisions about their health and fitness journey. [FitBit live demo](https://660eda88ddbbb7238114cfbf--cozy-panda-7df258.netlify.app/)
 
 ## Project Type
-Frontend | Backend | Fullstack
+Fullstack Web Application
+
+## Developer Team
+[Subhash Kumar (fw27_246)](https://skchouhan753.github.io/)<br/>
+[Deepak Underiya (fw27_088)](https://github.com/underiya)<br/>
+[Yogesh (fw28_170)](https://github.com/yogeshmasaistudent)<br/>
+[Rohit Kumar (fw28_206)](https://github.com/Rohit27082000)<br/>
 
 ## Deplolyed App
-Frontend: 
-Backend: 
-Database: 
+1. Frontend: https://660eda88ddbbb7238114cfbf--cozy-panda-7df258.netlify.app/
+2. Backend: https://debug-dhara-backend-server.onrender.com/
+3. Database: mongodb+srv://kumarS:kumar@cluster0.kfih6hj.mongodb.net/DEBUG_DHARA?retryWrites=true&w=majority&appName=Cluster0
+
+## Directory Structure
+Debug-Dhara-2345<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;├─ Backend<br/>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ├─config<br/>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ├─middlewares<br/>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ├─models<br/>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ├─routes<br/>
+         
+&nbsp;&nbsp;&nbsp;&nbsp;├─ Frontend<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ├─src<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ├─AllRoutes<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ├─Data<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ├─Homepage<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ├─Images<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ├─assets<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ├─Components<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ├─Pages<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ├─Redux<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ├─Styles<br/>
+     
+
+## Video Walkthrough of the project
+https://www.youtube.com/watch?v=LjwReI8nPH8
 
 ## Features
  - **User Authentication:** Benefit from a secure login and signup process, ensuring the safety of user accounts and personal information.
@@ -22,6 +52,10 @@ Database:
  - **Workouts and Activities:** Explore a wide variety of workouts and activities to suit your fitness needs, with detailed instructions and guidance for each exercise.
  - **Goal Setting:** Set and track your fitness goals, whether it's weight loss, muscle gain, or overall wellness improvement, to stay motivated and on track.
  - **Payment Integration:** Enjoy a seamless checkout experience with a dedicated payment gateway, ensuring secure transactions for premium features or products.
+
+## Credentials
+ Username - 
+ Password - 
 
 ## Technologies Used
  - Node.js
@@ -34,4 +68,9 @@ Database:
 
 ## Screenshots
 
+![FitBit fotter](https://github.com/Skchouhan753/Debug-Dhara-2345/assets/147644659/5bba1bfe-91ec-405a-9e21-fa8979175f14)
+![FitBit 1](https://github.com/Skchouhan753/Debug-Dhara-2345/assets/147644659/3ce4bd36-3f69-4080-ae6d-badb879dab59)
+![FirBit Chart](https://github.com/Skchouhan753/Debug-Dhara-2345/assets/147644659/af5cf5da-2681-45d6-9a67-1fb627fe2aa6)
+![FitBit features app](https://github.com/Skchouhan753/Debug-Dhara-2345/assets/147644659/a2a5d2cb-95bc-4d4f-ae82-5c8aff7415b1)
+![Premium page](https://github.com/Skchouhan753/Debug-Dhara-2345/assets/147644659/1bdadab5-7e2f-45eb-9f5e-565d33f6e842)
 
